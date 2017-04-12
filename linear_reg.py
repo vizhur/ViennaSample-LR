@@ -1,4 +1,4 @@
-# Vienna App sample Python file
+# Please make sure matplotlib is included in the conda_dependencies.yml file.
 # Linear regression on one-dimensional data.
 
 import numpy as np
