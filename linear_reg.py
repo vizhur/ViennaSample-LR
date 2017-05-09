@@ -33,9 +33,12 @@ Yhat = a * X + b
 print ("Coefficient: {0}, intercept: {1}".format(a, b))
 
 # Plot the data and the fitted line. Note this only works if you are running against local context.
-plot.scatter(X, Y)
-plot.plot(X, Yhat, color='magenta')
-plot.show()
+try:
+    plot.scatter(X, Y)
+    plot.plot(X, Yhat, color='magenta')
+    plot.show()
+except:
+    print('No display available')
 
 # compute r-squared
 
