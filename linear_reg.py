@@ -28,7 +28,7 @@ a = (X.dot(Y) - Y.mean() * X.sum()) / denominator
 # value of b
 b = (Y.mean() * X.dot(X) - X.mean() * X.dot(Y)) / denominator
 
-# Yhat is simpley aX + b
+# Yhat is simply aX + b
 Yhat = a * X + b
 print ("Coefficient: {0}, intercept: {1}".format(a, b))
 
