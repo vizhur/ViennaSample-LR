@@ -2,7 +2,7 @@
 # Linear regression on one-dimensional data.
 
 import numpy as np
-import matplotlib.pyplot as plot
+#import matplotlib.pyplot as plot
 
 # load data
 X = []
@@ -33,12 +33,12 @@ Yhat = a * X + b
 print ("Coefficient: {0}, intercept: {1}".format(a, b))
 
 # Plot the data and the fitted line. Note this only works if you are running against local context.
-try:
-    plot.scatter(X, Y)
-    plot.plot(X, Yhat, color='magenta')
-    plot.show()
-except:
-    print('No display available')
+#try:
+#    plot.scatter(X, Y)
+#    plot.plot(X, Yhat, color='magenta')
+#    plot.show()
+#except:
+#    print('No display available')
 
 # compute r-squared
 
