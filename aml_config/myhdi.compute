@@ -1,5 +1,0 @@
-address: "CLUSTER.azurehdinsight.net"
-username: "sshuser"
-password: "PASSWORD"  
-cluster: True
-native: True
