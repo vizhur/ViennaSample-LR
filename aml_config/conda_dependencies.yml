@@ -6,4 +6,4 @@
 name: project_environment
 dependencies:
   - python=3.5.2
-  #- matplotlib
+  - matplotlib
